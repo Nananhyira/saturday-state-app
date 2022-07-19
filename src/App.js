@@ -1,11 +1,9 @@
-import CounterClass from "./componenets/CounterClass";
-import CounterFunction from "./componenets/CounterFunction";
+import FunctionalForm from "./componenets/tuesdayClass/FunctionalForm";
+
 function App() {
 	return (
-		<div className="App">
-			<CounterClass />
-			<hr />
-			<CounterFunction />
+		<div>
+			<FunctionalForm />
 		</div>
 	);
 }
